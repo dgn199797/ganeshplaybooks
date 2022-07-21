@@ -1,0 +1,5 @@
+---
+- hosts: ubuntuos
+  become: yes
+  tasks:
+  - inclde_tasks: myfile.yml
