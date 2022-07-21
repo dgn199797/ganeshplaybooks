@@ -2,7 +2,7 @@
 - hosts: ubuntuos
   become: yes
   tasks:
-  - name: i want webserver on ubuntuos
+  - name: i want to install webserver on ubuntuos
     apt:
       name: apache2
       state: present
